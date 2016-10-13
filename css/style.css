@@ -1,0 +1,78 @@
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+html,
+body {
+
+}
+body {
+	min-height: 100%;
+	font: 18px/1.3 'Lato', Arial, sans-serif;
+	color: #000;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding-top: 80px;
+}
+
+.ba-container {
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 140px 0 120px 0;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ba-article {
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: top;
+}
+.ba-article-name {
+	font-family: 'Playfair Display', serif;
+	font-size: 42px;
+}
+.ba-article p {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #171717;
+	word-spacing: 3px;
+	line-height: 1.8;
+}
+.ba-article > p:first-of-type:first-letter {
+	font-family: 'Playfair Display', serif;
+	float: left;
+	font-size: 110px;
+	float: left;
+	line-height: 1;
+	padding-right: 30px;
+	vertical-align: top;
+}
+.ba-article .ba-bq{
+	font-size: 24px;
+	font-style: italic;
+}
+.ba-article .ba-bq:before {
+	content: "\201C";
+	font-size: 60px;
+	padding-right: 10px;
+}
+.btn-discover {
+	display: inline-block;
+	margin-top: 30px;
+	text-decoration: none;
+	padding: 25px 75px;
+	border: 1px solid #eaa258;
+	color: #eaa258;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.btn-discover:hover {
+	background-color: #EAA258;
+	color: #fff;
+}
